@@ -27,18 +27,18 @@ header {
     margin-bottom: 1.5vmin;
 }
 
-#number-axis {
+#letter-axis {
     display: grid;
     grid-template-rows: repeat(10, 3vmin);
     padding-right: 1vmin;
     float: left;
 }
 
-#letter-axis {
+#number-axis {
     display: grid;
     grid-template-columns: repeat(10, 3vmin);
     margin-top: 0.5vmin;
-    padding-left: 2.5vmin;
+    padding-left: 2.2vmin;
 }
 
 #pc-board {
@@ -82,6 +82,10 @@ header {
 
 #player-board > div:hover {
     background-color: white;
+}
+
+#rotate {
+    margin-top: 2vmin;
 }
 
 #reset {
